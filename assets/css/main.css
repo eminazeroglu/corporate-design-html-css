@@ -253,3 +253,46 @@ body {
 .section-consultation .container .btn {
     flex-shrink: 0;
 }
+
+.section-team .team {
+    display: flex;
+    gap: 29px;
+    height: 100%;
+    justify-content: center;
+}
+
+.section-team .team-item {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #F5F5F5;
+}
+
+.section-team .team-item:hover {
+    box-shadow: -1px -1px 11px 8px rgba(121, 111, 109, 0.10);;
+}
+
+.section-team .team-item:hover .name {
+    color: var(--primary);
+}
+
+.section-team .team-item .link {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+}
+
+.section-team .team-item .photo {
+    overflow: hidden;
+    height: 410px;
+}
+
+.section-team .team-item .inner {
+    padding: 25px;
+}
+
+.section-team .team-item .inner .name {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
