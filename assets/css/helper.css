@@ -32,6 +32,12 @@
     cursor: pointer;
 }
 
+.btn-lg {
+    height: 78px;
+    padding: 0 28px;
+    font-size: 22px;
+}
+
 .btn-rounded {
     border-radius: 5px;
 }

@@ -220,3 +220,36 @@ body {
     line-height: 160%;
     font-weight: 300;
 }
+
+.section-consultation {
+    background-image: url('../img/get-free-bg.png');
+    padding: 127px 0;
+    position: relative;
+}
+
+.section-consultation::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(3, 19, 51, 0.70);
+}
+
+.section-consultation .container {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-consultation .container .title {
+    font-size: 42px;
+    padding-right: 198px;
+    line-height: 150%;
+    font-weight: 700;
+}
+
+.section-consultation .container .btn {
+    flex-shrink: 0;
+}
