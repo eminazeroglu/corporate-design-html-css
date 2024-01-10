@@ -296,3 +296,29 @@ body {
     font-size: 20px;
     font-weight: 600;
 }
+
+.section-started .container {
+    background-color: #F3F3F3;
+    padding: 84px 234px;
+    display: flex;
+    align-items: center;
+}
+
+.section-started .container .text {
+    padding-right: 80px;
+    margin-right: 80px;
+    border-right: 1px solid #000;
+}
+
+.section-started .container .text h3 {
+    font-size: 28px;
+    line-height: 160%;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.section-started .container .text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 180%;
+}

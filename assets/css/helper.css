@@ -30,6 +30,7 @@
     background-color: transparent;
     border: none;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .btn-lg {
